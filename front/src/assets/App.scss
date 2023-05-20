@@ -1,0 +1,28 @@
+@use 'pages/Home.scss';
+@use 'pages/ScrollBySection.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121620;
+  color: white;
+
+  #footer {
+    width: 100vw;
+    height: 300px;
+  }
+}
+
+.parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-size: 100vw auto;
+    background-size: cover;
+}
